@@ -1,0 +1,10 @@
+<%= form_with url: import_people_path, :method => :post do |f| %>
+<div class="container my-4">
+
+    <%= f.file_field :file, accept: '.csv'  %>
+    <%= f.submit "Upload People" , class: "btn btn-primary"   %>
+    <%= link_to "Clear People",clear_people_path , class: "btn btn-danger",
+       data: { turbo_method: :delete,
+        turbo_confirm: "Are You Sure to delete ?"} %>
+</div>
+<% end %>
