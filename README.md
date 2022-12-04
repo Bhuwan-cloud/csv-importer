@@ -1,6 +1,6 @@
 # README
 
-![Screenshot][app/assets/images/csv-importer.png]
+![plot](./assets/images/csv-importer.png)
 
 Things you may want to cover:
 
