@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![Screenshot][app/assets/images/csv-importer.png]
 
 Things you may want to cover:
 
@@ -21,4 +20,4 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+
